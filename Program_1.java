@@ -3,14 +3,16 @@ import java.util.*;
 
 public class Online{
      public static void main(String[] args) {
-        String str = "hello friend";
+        String str;
+        Scanner s = new Scanner(System.in);
+        str = s.next();
         char ele;
         int i=0,j=0;
         for(i= 0 ;i<str.length();i++)
         {
             int c = 0;
             ele = str.charAt(i);
-            // System.out.println(ele);
+            
             if (ele != '-')
             {
                 for(j= i ;j<str.length();j++)

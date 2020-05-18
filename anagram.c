@@ -45,4 +45,3 @@ if(len1==len2)
 	}
 	return 0;
 }
-© 2020 GitHub, Inc.
